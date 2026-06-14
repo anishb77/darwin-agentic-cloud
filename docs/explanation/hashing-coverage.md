@@ -8,3 +8,6 @@ It works by first converting a python object to a standardized json-formatted st
 
 ### The Gap
 There is no dedicated tests/test_hashing.py file and hashing.py is only called indirectly. Since the encoding system relies on serialization and proper formatting in order to be deterministic, test cases on those settings would be beneficial.
+
+### Links
+* **Source Module:** [hashing.py](../../darwin/agenticcloud/hashing.py)

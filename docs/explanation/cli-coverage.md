@@ -7,4 +7,8 @@ cli.py provides the Command Line Interface for Darwin using the typer library. I
 Similarly to mcp_server.py, cli.py functions as a router. When humans query a request through terminal commands, the file determines which handlers and imports to use for the task. Additionally, it parses human input (arguments and commands) and presents outputs using customized visuals.
 
 ### The Gap
-There is no dedicated tests/test_cli.py file. Since the middleman is crucial in correctly processing user requests and visualizing outputs, it is important that test cases are added for whether the interface handles errors cleanly and whether the outputs are human-readable.
+The "run" verb is successfully covered, but the other verbs do not have coverage. Additionally, since the middleman is crucial in correctly processing user requests and visualizing outputs, it is important that test cases are added for whether the interface handles errors cleanly and whether the outputs are human-readable.
+
+### Links
+* **Source Module:** [cli.py](../../darwin/agenticcloud/cli.py)
+* **Test File:** [tests/cli](../../tests/cli)

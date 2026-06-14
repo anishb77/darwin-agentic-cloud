@@ -10,3 +10,6 @@ Then, using the Signer class, it can create a more compact key id using hashing.
 
 ### The Gap
 There is no dedicated tests/test_signing.py file, and signing.py is only exercised indirectly. Since the file directly interacts with the operating system to create files and change file permissions, its behavior may change depending on the os and possibly break without test cases to monitor it. Also, if errors or changes were to go unchecked in the signature verification logic, false negatives or false positives may arise and compromise security.
+
+### Links
+* **Source Module:** [signing.py](../../darwin/agenticcloud/signing.py)
